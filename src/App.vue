@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <div class="nav">
+      <a href="#/">
+        <button class="btn btn-default">
+          Main
+        </button>
+      </a>
+      <a href="#/index"><button class="btn btn-default">Index</button></a>
+    </div>
+    <hr/>
     <router-view/>
   </div>
 </template>
